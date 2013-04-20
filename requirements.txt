@@ -22,6 +22,9 @@ Flask-RESTful==0.2.1
 # Storage
 redis==2.7.2
 
+# monitoring
+newrelic==1.11.0.55
+
 ## The following requirements were added by pip --freeze:
 Jinja2==2.6
 Werkzeug==0.8.3
