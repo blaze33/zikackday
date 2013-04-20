@@ -47,3 +47,9 @@ nosetests.xml
 .project
 .pydevproject
 
+# nodeenv folders
+nodeenv
+node_modules
+
+# sass
+.sass-cache
