@@ -3,6 +3,8 @@ env
 .Python
 include
 lib
+# C extensions
+*.so
 
 # Python Packages
 *.egg
@@ -15,15 +17,19 @@ eggs
 env
 parts
 var
+sdist
 develop-eggs
 .installed.cfg
+lib
+lib64
 
-# Pip Installer Log
+# Installer logs
 pip-log.txt
 
-# Unit test / coverage
+# Unit test / coverage reports
 .coverage
 .tox
+nosetests.xml
 
 # Mac OS X
 .DS_Store
@@ -32,3 +38,12 @@ pip-log.txt
 *.[oa]
 *.py[co]
 *.rbc
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
