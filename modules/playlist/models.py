@@ -27,7 +27,8 @@ class Playlist(object):
             return {'name': self.name, 'uuid': self.uuid, 'tracks': self.tracks}
         return {}
 
-unknown_track_data = {'score':0, 'void': True}
+unknown_track_data = {'score': 0, 'void': True}
+
 
 class Track(object):
 
