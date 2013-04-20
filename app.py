@@ -21,7 +21,7 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'this_should_be_configur
 @app.route('/')
 def home():
     """Render website's home page."""
-    return render_template('home.html')
+    return app.send_static_file('index.html')
 
 
 @app.route('/about/')
@@ -34,11 +34,10 @@ def about():
 # The functions below should be applicable to all Flask apps.
 ###
 
-@app.route('/<file_name>.txt')
-def send_text_file(file_name):
+@app.route('/static/<file_name>')
+def send_static_file(file_name):
     """Send your static text file."""
-    file_dot_text = file_name + '.txt'
-    return app.send_static_file(file_dot_text)
+    return app.send_static_file(file_name)
 
 
 @app.after_request
