@@ -19,6 +19,9 @@ gunicorn==0.17.2
 # API
 Flask-RESTful==0.2.1
 
+# Storage
+redis==2.7.2
+
 ## The following requirements were added by pip --freeze:
 Jinja2==2.6
 Werkzeug==0.8.3
