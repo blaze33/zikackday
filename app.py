@@ -57,6 +57,17 @@ def page_not_found(error):
     """Custom 404 page."""
     return render_template('404.html'), 404
 
+###
+# Loading custom backend modules
+###
+
+from flask.ext.restful import Api
+from modules.api.resources import PlaylistResource, TrackResource
+
+api = Api(app)
+api.add_resource(PlaylistResource, '/api' + PlaylistResource.url)
+api.add_resource(TrackResource, '/api' + TrackResource.url)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
