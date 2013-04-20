@@ -1,0 +1,11 @@
+.jumbotron {
+  text-align: center; }
+  .jumbotron h1 {
+    font-size: 72px;
+    line-height: 1.5em; }
+  .jumbotron p.lead {
+    font-size: 24px;
+    line-height: 1.5em; }
+
+#playlist #player {
+  height: 307px; }

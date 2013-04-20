@@ -1,0 +1,24 @@
+<div id="dz-root"></div>
+
+<div id="playlist">
+
+  <h1>Playlist {{playlistName}}</h1>
+
+  <div id="player" ng-init="buildPlayer();"></div>
+
+  <table class="table">
+
+    <tr class="track" ng-repeat="track in tracks">
+
+      <td>
+        {{ track.title }}
+        <a class="btn pull-right" ng-click="playTrack(track.uid)">Play</a>
+      </td>
+
+    </tr>
+
+  </table>
+
+
+
+</div>
