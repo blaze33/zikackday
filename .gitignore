@@ -47,9 +47,3 @@ nosetests.xml
 .project
 .pydevproject
 
-# Yeoman
-node_modules
-.tmp
-.sass-cache
-app/components
-
