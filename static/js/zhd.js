@@ -36,7 +36,7 @@
 
     playlistId = $routeParams.id;
     $scope.playlistName = playlistId;
-    $http.get("/static/tracks.json").success(function(data) {
+    $http.get("/static/daft-punk.json").success(function(data) {
       return $scope.tracks = data;
     }).error(function() {
       return alert('Error fetching the playlist :( Try to reload the page.');

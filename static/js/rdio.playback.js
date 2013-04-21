@@ -1,7 +1,7 @@
 var duration = 1; // track the duration of the currently playing track
 function initRdio() {
   $('#api').bind('ready.rdio', function() {
-    // $(this).rdio().play('a171827');
+    $(this).rdio().play('a171827');
     console.log("ready to play")
   });
   $('#api').bind('playingTrackChanged.rdio', function(e, playingTrack, sourcePosition) {

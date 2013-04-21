@@ -31,9 +31,9 @@ THE SOFTWARE.
 // then update playback_token below with YOUR_PLAYBACK_TOKEN and the domain below with YOUR_DOMAIN
 
 // localhost
-// var playback_token = "GAlRc5-g_____3AyYXh5M2t6NXVmdXMzYWh6MzVuemd5ZWxvY2FsaG9zdHJ0jzssQ_gS1K_WstT38JU=";
+var playback_token = "GAlRc5-g_____3AyYXh5M2t6NXVmdXMzYWh6MzVuemd5ZWxvY2FsaG9zdHJ0jzssQ_gS1K_WstT38JU=";
 // yamojo.fr
-var playback_token = "GA1Rc58i_____3AyYXh5M2t6NXVmdXMzYWh6MzVuemd5ZXd3dy55YW1vam8uZnIC1rs1-o54q0uEwanhyCQ1";
+// var playback_token = "GA1Rc58i_____3AyYXh5M2t6NXVmdXMzYWh6MzVuemd5ZXd3dy55YW1vam8uZnIC1rs1-o54q0uEwanhyCQ1";
 
 var domain = "www.yamojo.fr";
 

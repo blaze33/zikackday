@@ -41,7 +41,7 @@ PlaylistCtrl = ($scope, $routeParams, $http, $location) ->
 
 
   # Fetching the tracks
-  $http.get("/static/tracks.json").success( (data) ->
+  $http.get("/static/daft-punk.json").success( (data) ->
     $scope.tracks = data
   ).error( () ->
     alert('Error fetching the playlist :( Try to reload the page.')

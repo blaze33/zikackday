@@ -1,0 +1,170 @@
+[
+    {
+        "artist_id": "ARFIU2R1187B9927F9", 
+        "artist_name": "LCD Soundsystem", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2257202"
+            }, 
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2086115"
+            }
+        ], 
+        "id": "SOMTPCW1367610CFD5", 
+        "title": "Daft Punk Is Playing At My House"
+    }, 
+    {
+        "artist_id": "ARF8HTQ1187B9AE693", 
+        "artist_name": "Daft Punk", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t1982973"
+            }
+        ], 
+        "id": "SOVOOSP12A6310F1AC", 
+        "title": "Aerodynamic (Daft Punk Remix)"
+    }, 
+    {
+        "artist_id": "AR6OEZU1187FB50247", 
+        "artist_name": "Scott Grooves", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t7712038"
+            }, 
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t7600302"
+            }
+        ], 
+        "id": "SONGZPJ1312FE01F44", 
+        "title": "Mothership reconnection (Daft Punk remix)"
+    }, 
+    {
+        "artist_id": "ARFIU2R1187B9927F9", 
+        "artist_name": "LCD Soundsystem", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t6362788"
+            }
+        ], 
+        "id": "SOOZDNZ1360091AA9C", 
+        "title": "Daft Punk Is Playing At My House (London Session)"
+    }, 
+    {
+        "artist_id": "ARFIU2R1187B9927F9", 
+        "artist_name": "LCD Soundsystem", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2086225"
+            }, 
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2323294"
+            }
+        ], 
+        "id": "SOBDTYJ136755B6ECC", 
+        "title": "Daft Punk Is Playing At My House (Soulwax Shibuya Mix)"
+    }, 
+    {
+        "artist_id": "AR1Y9BJ1187FB47430", 
+        "artist_name": "I:Cube", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t10221089"
+            }
+        ], 
+        "id": "SOQTBHI12A8C1449DF", 
+        "title": "Disco Cubizm (Daft Punk Remix)"
+    }, 
+    {
+        "artist_id": "ARMKBL21187FB38230", 
+        "artist_name": "The Chemical Brothers", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2507089"
+            }
+        ], 
+        "id": "SOTUHZL12A6D4F50F7", 
+        "title": "Life Is Sweet (Daft Punk Remix)"
+    }, 
+    {
+        "artist_id": "AR6OEZU1187FB50247", 
+        "artist_name": "Scott Grooves", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t7731223"
+            }
+        ], 
+        "id": "SOIWXYN13134397845", 
+        "title": "Mothership Reconnection ((Daft Punk Mix))"
+    }, 
+    {
+        "artist_id": "ARLPMMK12C1DF52392", 
+        "artist_name": "Acapella Vocalists", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t6706794"
+            }, 
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t6707057"
+            }
+        ], 
+        "id": "SOSJJUE12D8578DAD6", 
+        "title": "One More Time (Acapella Version As Made Famous By Daft Punk)"
+    }, 
+    {
+        "artist_id": "ARLPMMK12C1DF52392", 
+        "artist_name": "Acapella Vocalists", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t6704555"
+            }, 
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t6707130"
+            }
+        ], 
+        "id": "SOKVNSJ12D8578DB56", 
+        "title": "Around The World (Acapella Version As Made Famous By Daft Punk)"
+    }, 
+    {
+        "artist_id": "ARXBTDB1242077EABF", 
+        "artist_name": "The Workout Heroes", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2555452"
+            }, 
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t219890"
+            }
+        ], 
+        "id": "SOFAWZP12AB017DB69", 
+        "title": "One More Time (As Made Famous by Daft Punk)(Workout Remix)"
+    }, 
+    {
+        "artist_id": "ARC254U1187FB47D36", 
+        "artist_name": "Diam's", 
+        "foreign_ids": [
+            {
+                "catalog": "rdio-us-streaming", 
+                "foreign_id": "rdio-us-streaming:song:t2032265"
+            }
+        ], 
+        "id": "SOBLJVX12A8C1362CF", 
+        "title": "Outro : Daft Punk ''Around The World'' (Live 2006)"
+    }
+]

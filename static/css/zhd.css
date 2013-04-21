@@ -9,11 +9,16 @@
 
 #playlist #player {
   height: 307px; }
-#playlist .controls button {
-  text-decoration: none;
-  cursor: pointer;
-  text-align: center;
-  color: #ecf0f1; }
+#playlist .controls {
+  margin-top: 45px; }
+  #playlist .controls button {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    color: #ecf0f1; }
+#playlist #search-track {
+  margin-top: 24px;
+  height: 39px; }
 
 /* site theme - converted with http://css2sass.heroku.com/ */
 /* ---------- */

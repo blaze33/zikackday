@@ -2,32 +2,32 @@
 
 <div id="playlist">
 
-  <h1>Playlist {{playlistName}}</h1>
+  <h1>{{playlistName}}</h1>
 
-  <!-- <div id="player" ng-init="buildPlayer();"></div> -->
-  <div id="api" ng-init="initRdio();"></div>
-  <img id="art" src="" height="200" width="200" style="float:left;height:200px;margin-right:20px;">
-  <div>
-    <div><b>Track: </b><span id="track"></span></div>
-    <div><b>Album: </b><span id="album"></span></div>
-    <div><b>Artist: </b><span id="artist"></span></div>
-    <div><b>Position: </b>
-      <span style="display:inline-block;width:200px;border:1px solid black;">
-        <span id="position" style="display:inline-block;background-color:#666">&nbsp;</span>
-      </span></div>
-    <div class="controls">
-      <button class="btn" id="previous"><i class="icon-backward"></i></button>
-      <button class="btn" id="play"><i class="icon-play"></i></button>
-      <button class="btn" id="pause"><i class="icon-pause"></i></button>
-      <button class="btn" id="next"><i class="icon-forward"></i></button>
+<div class="row">    <div id="api" ng-init="initRdio();"></div>
+    <img id="art" src="" height="200" width="200" style="float:left;height:200px;margin-right:20px;">
+    <div>
+      <div><b>Track: </b><span id="track"></span></div>
+      <div><b>Album: </b><span id="album"></span></div>
+      <div><b>Artist: </b><span id="artist"></span></div>
+      <div><b>Position: </b>
+        <span style="display:inline-block;width:200px;border:1px solid black;">
+          <span id="position" style="display:inline-block;background-color:#666">&nbsp;</span>
+        </span></div>
+      <div class="controls">
+        <button class="btn btn-large" id="previous"><i class="icon-backward"></i></button>
+        <button class="btn btn-large" id="play"><i class="icon-play"></i></button>
+        <button class="btn btn-large" id="pause"><i class="icon-pause"></i></button>
+        <button class="btn btn-large" id="next"><i class="icon-forward"></i></button>
+      </div>
     </div>
-  </div>
+</div>
 
   <br/>
   <div class="row">
     <form name="searchTrack" class="" ng-submit="changeView('{{playlistName}}/{{trackQuery}}');">
       <input type="text" class="typeahead" ng-model="trackQuery" placeholder="What is the next song?" class="span6 offset3 input-large" ng-init="initTypeahead();" required>
-      <input type="submit">
+      <button id="search-track" class="btn btn-primary" type="submit">Search</button>
       <br> {{trackQuery}}
     </form>
   </div>
