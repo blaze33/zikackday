@@ -3,8 +3,10 @@
   <p class="lead">Tagline goes here...</p>
 
   <br/>
-  <div class="row">
-    <input type="text" placeholder="What is your room?" class="span6 offset3 input-large" ng-model="playlist"/>
-  </div>
-  <a class="btn btn-large btn-primary" type="button" href="#/{{playlist}}">Let's rock!</a>
+  <form name="createPlaylist" class="" ng-submit="changeView('{{playlist}}');">
+    <div class="row">
+      <input type="text" placeholder="What is your room?" class="span6 offset3 input-large" ng-model="playlist" required autofocus>
+    </div>
+    <button class="btn btn-large btn-primary" type="submit">Let's rock!</button>
+  </form>
 </div>
