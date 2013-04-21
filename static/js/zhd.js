@@ -91,13 +91,11 @@
   };
 
   AddTrackCtrl = function($scope, $routeParams, $http) {
-    var playlistId, trackQuery;
+    var playlistId;
 
     playlistId = $routeParams.id;
-    trackQuery = $routeParams.query;
-    console.log(playlistId);
-    console.log(trackQuery);
     $scope.playlistName = playlistId;
+    $scope.trackQuery = $routeParams.query;
     console.log("/api/" + playlistId + "/");
     $http.get("/api/" + playlistId + "/").success(function(data) {
       $scope.playlist = data;
@@ -131,7 +129,7 @@
         }
       });
     };
-    $scope.fetchSongByName(trackQuery);
+    $scope.fetchSongByName($scope.trackQuery);
     return console.log($scope);
   };
 

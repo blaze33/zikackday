@@ -92,12 +92,8 @@ initTypeahead = () ->
 AddTrackCtrl = ($scope, $routeParams, $http) ->
 
   playlistId = $routeParams.id
-  trackQuery = $routeParams.query
-  console.log playlistId
-  console.log trackQuery
-
-  # Getting the playlist
   $scope.playlistName = playlistId
+  $scope.trackQuery = $routeParams.query
 
   # Fetching the playlist data
   console.log("/api/#{playlistId}/")
@@ -132,5 +128,5 @@ AddTrackCtrl = ($scope, $routeParams, $http) ->
 
 
 
-  $scope.fetchSongByName trackQuery
+  $scope.fetchSongByName $scope.trackQuery
   console.log $scope

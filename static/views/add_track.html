@@ -1,7 +1,7 @@
 <div class="offset2 span8">
   <div class="todo mrm">
     <div class="todo-search">
-      <input class="todo-search-field" type="search" value="" placeholder="{{playlistId}}">
+      <input class="todo-search-field" type="search" value="" placeholder="{{trackQuery}}">
     </div>
 
 
@@ -10,9 +10,9 @@
         <div class="todo-icon fui-man-24"></div>
         <div class="todo-content">
           <h4 class="todo-name">
-            <strong>{{track.title}}</strong> {{track.artist_name}}
+            <strong>{{track.title}}</strong>
           </h4>
-          Times Square
+          {{track.artist_name}}
         </div>
       </li>
     </ul>
