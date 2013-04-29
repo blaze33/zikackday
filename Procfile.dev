@@ -1,0 +1,4 @@
+web: python app.py
+coffee: coffee -o static/js/ -cw front/coffee/
+sass: sass --watch front/sass/zhd.sass:static/css/zhd.css
+livereload: bundle exec guard
